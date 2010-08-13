@@ -1,0 +1,3 @@
+This application converts a contacts.db database saved with the now-discontinued Android application "Backup for root users" into a vcard that can be imported into the address book. It is necessary if you updated to a newer Rom, where "Backup for root users" does not work anymore and only realized this after the update was done.
+
+Usage: ./contactsdb2vcard.py > vcard.vcf
