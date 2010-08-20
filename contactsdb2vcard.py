@@ -45,6 +45,7 @@ for person in people:
         for phone in phones:
             number = phone[1]
             number = number.replace(' ','') # normalize numbers
+            number = number.replace('+','00') # global numbers, android import error when + is used
 
             vcard.add('tel').value = 'tel:' + number
 
